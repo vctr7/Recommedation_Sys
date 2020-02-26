@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+   <body>
+      노래 제목: {{ title }}
+      <br>
+      <br>
+      노래 추천
+      <br>
+      {% for name in lyric %}
+
+      <div style="float:left;">
+            <div align="center">
+                <iframe src={{name[0]}} style="display:block; width:17vw; height: 59vh"></iframe>
+            </div>
+      </div>
+      {% endfor %}
+
+      <br>
+      <div id="movie" style=width:400;height:1050;float:left;>
+          <br>
+          <br>
+          <table border="1" cellpadding="0" cellspacing="0">
+          <tr>
+              <th colspan="2" align="center">영화 추천</th>
+          </tr>
+         {% for name in movie %}
+            <tr>
+               <td align="center" width=150 height=200> <a href={{name[1]}} target="_blank">{{name[0]}}</a></td>
+               <td> <img src={{name[2]}} width=150 height=200> </td>
+            </tr>
+         {% endfor %}
+      </table>
+      </div>
+
+      <div id="empty" style="width:400;height:1050;float:left">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+              <th></th>
+          </tr>
+         {% for name in book %}
+            <tr>
+               <td align="center"></td>
+               <td></td>
+            </tr>
+         {% endfor %}
+        </table>
+      </div>
+
+      <div id="book" style=width:400;height:1050;float:left;>
+          <br>
+          <br>
+          <table border="1" cellpadding="0" cellspacing="0">
+          <tr>
+              <th colspan="2" align="center">도서 추천</th>
+          </tr>
+         {% for name in book %}
+            <tr>
+               <td align="center" width=150 height=200> <a href={{name[1]}} target="_blank">{{name[0]}}</a></td>
+               <td> <img src={{name[2]}} width=150 height=200> </td>
+            </tr>
+         {% endfor %}
+      </table>
+      </div>
+
+
+   </body>
+   <br>
+   <br>
+   <footer class="_body" style=clear:left;>Made by VCTR</footer>
+</html>
