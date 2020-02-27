@@ -19,6 +19,10 @@ Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0
 
 - [PPT](https://github.com/vctr7/Recommedation_Sys/blob/master/ppt/recommendation%20system.pdf)
 
+## Simulation
+
+- [Web Simulations](https://drive.google.com/drive/folders/1Vp3hlF5r-v-ARNDiaxW_emEwBOLYZZd9)
+
 
 ## References
 
