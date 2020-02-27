@@ -2,7 +2,7 @@
 
 Function implement based on [Flask](https://github.com/pallets/flask) web framework by using Mozilla [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
-If you want to implement this system, download [Here](https://drive.google.com/open?id=1Xhg1uwQzYD6groI9I3tEXg22LArX82wE)
+If you want to implement this system, download [here](https://drive.google.com/open?id=1Xhg1uwQzYD6groI9I3tEXg22LArX82wE)
 
 ## Applied Technics
 - TF-IDF, Singular Value Decomposition([Scikit-learn](https://github.com/scikit-learn/scikit-learn))
