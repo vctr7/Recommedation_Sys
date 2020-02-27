@@ -1,6 +1,6 @@
 # Meida Recommendation System based on text
 
-Download data [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0-D)
+Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0-D)
 
 ## Applied Technics
 - TF-IDF
@@ -14,7 +14,6 @@ Download data [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2
 - [Naver Music](https://vibe.naver.com/today) Lyrics
 - [Naver Movie](https://movie.naver.com/) Overviews
 - [Yes24](http://www.yes24.com/Main/default.aspx) Book Overviews
-
 
 ## Details
 
