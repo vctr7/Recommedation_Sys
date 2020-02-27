@@ -1,6 +1,6 @@
 # Meida Recommendation System based on text
 
-Function implement based on Flask web framework
+Function implement based on Flask web framework and Mozilla [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
 Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0-D)
 
@@ -24,6 +24,12 @@ Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0
 ## Simulation
 
 - [Web Simulations](https://drive.google.com/drive/folders/1Vp3hlF5r-v-ARNDiaxW_emEwBOLYZZd9)
+
+## Preveal
+
+![https://user-images.githubusercontent.com/29513480/75418551-1cf4b180-5977-11ea-868e-05f127b18d4f.png](https://user-images.githubusercontent.com/29513480/75418551-1cf4b180-5977-11ea-868e-05f127b18d4f.png)
+
+![https://user-images.githubusercontent.com/29513480/75418559-254cec80-5977-11ea-9907-2f2b5e94de68.png](https://user-images.githubusercontent.com/29513480/75418559-254cec80-5977-11ea-9907-2f2b5e94de68.png)
 
 
 ## References
