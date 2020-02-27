@@ -1,5 +1,7 @@
 # Meida Recommendation System based on text
 
+Function implement by Flask web framework
+
 Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0-D)
 
 ## Applied Technics
@@ -7,7 +9,7 @@ Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0
 - SVD
 - Data Pre-processing
 - [Web Scrapping](https://github.com/vctr7/Web_Crawling)
-- Web Programming
+- Web Programming(Flask)
 
 ## Used Data
 
