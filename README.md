@@ -1,4 +1,4 @@
-# Meida Recommendation System based on text
+# Media Recommendation System based on text data
 
 Function implement based on Flask web framework and Mozilla [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
