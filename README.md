@@ -1,15 +1,14 @@
 # Media Recommendation System based on text data
 
-Function implement based on Flask web framework and Mozilla [geckodriver](https://github.com/mozilla/geckodriver/releases)
+Function implement based on [Flask](https://github.com/pallets/flask) web framework by using Mozilla [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
-Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0-D)
+If you want to implement this system, download [Here](https://drive.google.com/open?id=1Xhg1uwQzYD6groI9I3tEXg22LArX82wE)
 
 ## Applied Technics
-- TF-IDF
-- SVD
-- Data Pre-processing
-- [Web Scrapping](https://github.com/vctr7/Web_Crawling)
-- Web Programming(Flask)
+- TF-IDF, Singular Value Decomposition([Scikit-learn](https://github.com/scikit-learn/scikit-learn))
+- Data Pre-processing([mecab](https://konlpy.org/ko/latest/api/konlpy.tag/#mecab-class), [nltk](https://github.com/nltk/nltk))
+- [Web Scrapping](https://github.com/vctr7/Web_Crawling)([Selenium](https://github.com/SeleniumHQ/Selenium), [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/))
+- Web Programming(Flask, HTML)
 
 ## Used Data
 
