@@ -6,7 +6,7 @@ If you want to implement this system, download [Here](https://drive.google.com/o
 
 ## Applied Technics
 - TF-IDF, Singular Value Decomposition([Scikit-learn](https://github.com/scikit-learn/scikit-learn))
-- Data Pre-processing([mecab](https://konlpy.org/ko/latest/api/konlpy.tag/#mecab-class), [nltk](https://github.com/nltk/nltk))
+- Data Pre-processing([Mecab](https://konlpy.org/ko/latest/api/konlpy.tag/#mecab-class), [NlTK](https://github.com/nltk/nltk))
 - [Web Scrapping](https://github.com/vctr7/Web_Crawling)([Selenium](https://github.com/SeleniumHQ/Selenium), [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/))
 - Web Programming(Flask, HTML)
 
@@ -25,6 +25,8 @@ If you want to implement this system, download [Here](https://drive.google.com/o
 - [Web Simulations](https://drive.google.com/drive/folders/1Vp3hlF5r-v-ARNDiaxW_emEwBOLYZZd9)
 
 ## Preveal
+
+![https://user-images.githubusercontent.com/29513480/75419825-07cd5200-597a-11ea-9625-4ea7fb2d0d45.png](https://user-images.githubusercontent.com/29513480/75419825-07cd5200-597a-11ea-9625-4ea7fb2d0d45.png)
 
 ![https://user-images.githubusercontent.com/29513480/75418551-1cf4b180-5977-11ea-868e-05f127b18d4f.png](https://user-images.githubusercontent.com/29513480/75418551-1cf4b180-5977-11ea-868e-05f127b18d4f.png)
 
