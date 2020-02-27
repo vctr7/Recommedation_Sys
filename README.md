@@ -1,6 +1,6 @@
 # Meida Recommendation System based on text
 
-Function implement by Flask web framework
+Function implement based on Flask web framework
 
 Download [Here](https://drive.google.com/open?id=1_WEQbAzLcl6tz8SUknZ9diKH2cus-0-D)
 
