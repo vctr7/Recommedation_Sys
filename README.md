@@ -1,6 +1,6 @@
 # Media Recommendation System based on text data
 
-Function implement based on [Flask](https://github.com/pallets/flask) web framework by using Mozilla [geckodriver](https://github.com/mozilla/geckodriver/releases)
+Implemented based on [Flask](https://github.com/pallets/flask) web framework with Mozilla [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
 The codes in this repositery are not subject to implement.
 
