@@ -12,7 +12,6 @@ def search_doc_id(track_id):
       for line in F:
          if not line:
             continue
-         # print(line)
          row = line.split()
 
          if row[1] == str(track_id):
@@ -81,9 +80,9 @@ def get_track_id(track_title):
 def load_movie(model_fname):
    movie_titles, movie_vectors, movie_urls, movie_imgs = [], [], [], []
    with open(model_fname, 'r', encoding='utf-8') as M:
-      for num, line in enumerate(M):
-         if 5958 <= num & num < 20622:
-            m_title, m_vec, m_url, m_img = line.strip().split("\u241E")
+      for num in range(len(M)):
+         if 5958 <= num < 20622:
+            m_title, m_vec, m_url, m_img = M[num].strip().split("\u241E")
             m_vector = [float(el) for el in m_vec.split()]
             movie_titles.append(m_title)
             movie_vectors.append(m_vector)
@@ -96,9 +95,9 @@ def load_movie(model_fname):
 def load_model(model_fname):
    titles, vectors = [], []
    with open(model_fname, 'r', encoding='utf-8') as L:
-      for num, line in enumerate(L):
+      for num in range(len(L)):
          if 20622 <= num:
-            title, str_vec = line.strip().split("\u241E")
+            title, str_vec = L[num].strip().split("\u241E")
             vector = [float(el) for el in str_vec.split()]
             titles.append('https://vibe.naver.com/track/' + title)
             vectors.append(vector)
@@ -109,9 +108,9 @@ def load_model(model_fname):
 def load_book(model_fname):
    book_titles, book_vectors, book_urls, book_imgs = [], [], [], []
    with open(model_fname, 'r', encoding='utf-8') as B:
-      for num, line in enumerate(B):
-         if 0 <= num & num < 5958:
-            b_title, b_vec, b_url, b_img = line.strip().split("\u241E")
+      for num in range(len(B)):
+         if 0 <= num < 5958:
+            b_title, b_vec, b_url, b_img = B[num].strip().split("\u241E")
             b_vector = [float(el) for el in b_vec.split()]
             book_titles.append(b_title)
             book_vectors.append(b_vector)
@@ -127,7 +126,7 @@ def most_similar(title, top_n):
    query_doc_vec = L_vectors[doc_id]  # doc_id에 대한 임베딩 벡터 = query_doc_vec
    query_vec_norm = np.linalg.norm(query_doc_vec)  # query_doc_vec 정규화
 
-   if query_vec_norm != 0:
+   if query_vec_norm:
       query_unit_vec = query_doc_vec / query_vec_norm
    else:
       query_unit_vec = query_doc_vec
@@ -154,7 +153,6 @@ def search():
 
 @app.route('/result', methods=['POST', 'GET'])
 def result():
-
    if request.method == 'POST':
 
       value = request.form.getlist('name')
@@ -163,6 +161,7 @@ def result():
 
       print(value[0])
       return render_template("result.html", title=title, lyric=lyric, movie=movie, book=book)
+
 
 if __name__ == '__main__':
     app.run()
